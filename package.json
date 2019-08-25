@@ -7,13 +7,18 @@
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "@ant-design/pro-layout": "^4.5.14",
     "express": "^4.14.0",
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
