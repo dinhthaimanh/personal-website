@@ -4,7 +4,8 @@
     "airbnb/hooks",
     "eslint:recommended",
     "plugin:import/errors",
-    "plugin:import/warnings"
+    "plugin:import/warnings",
+    "plugin:flowtype/recommended"
   ],
   "parser": "babel-eslint",
   "env": {
@@ -17,7 +18,7 @@
     "window": true,
     "process": true
   },
-  "plugins": ["jsx-a11y", "react"],
+  "plugins": ["jsx-a11y", "react", "flowtype"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
